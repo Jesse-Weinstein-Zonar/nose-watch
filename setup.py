@@ -12,8 +12,8 @@ setup(
     packages=find_packages(),
     long_description=open('README.rst').read(),
     setup_requires=['nose>=1.0'],
-    install_requires=['watchdog>=0.6'],
-    tests_require=['mock'],
+    install_requires=['watchdog[watchmedo]>=0.6'],
+    tests_require=['mock'], 
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
